@@ -1,9 +1,9 @@
 import React from 'react';
-import { CoursesContext } from '../../../helpers/context';
+import { CoursesContext } from '../helpers/context';
 import { useContext } from 'react';
 import { useEffect } from 'react';
 
-const Python = () => {
+const SubjectsDisplay = () => {
 
     const {subjectsList,id,setId,form,setForm,setDisplay}=useContext(CoursesContext);
 
@@ -62,4 +62,4 @@ const Python = () => {
     );
 }
 
-export default Python;
+export default SubjectsDisplay;

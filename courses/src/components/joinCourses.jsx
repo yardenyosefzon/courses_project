@@ -4,7 +4,7 @@ import { CoursesContext } from '../helpers/context';
 import { useContext } from 'react';
 import decode from 'jwt-decode';
 import App from './../App';
-import Python from './password Change/courses/python';
+import SubjectsDisplay from './subjectsDisplay';
 
 const MyCourses = () => {
 
@@ -44,7 +44,7 @@ const MyCourses = () => {
 
             <div className='courseDispaly'>
 
-                <Python/>
+                <SubjectsDisplay/>
 
             </div>
             </div>
